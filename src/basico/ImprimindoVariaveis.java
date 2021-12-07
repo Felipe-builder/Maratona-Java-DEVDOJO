@@ -13,9 +13,14 @@ public class ImprimindoVariaveis {
      */
     public static void main(String[] args) {
         int idade = 12;
-        double peso = 46.7;
+        double salarioDouble = 1222.7;
         float tamanho = 1.40F;
+        byte idadeByte = 12;
+        short idadeShort = 32767;
         boolean maiorDeIdade = false;
+        long numeroGrande = 1000L;
+        char caractere = 'A';
+        String nome = "Isaias";
         System.out.println("Dados Impressos");
         System.out.println("Idade: " + idade);
     }
