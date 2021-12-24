@@ -6,36 +6,18 @@ public class ExercicioControleFluxo2 {
 
         switch (dia) {
             case 1:
-                System.out.println("Domingo");
-                System.out.println("Final de semana");
+            case 7:
+                System.out.println("Dia util");
                 break;
             case 2:
-                System.out.println("Segunda-Feira");
-                System.out.println("Dia util");
-                break;
             case 3:
-                System.out.println("Terça-Feira");
-                System.out.println("Dia util");
-                break;
             case 4:
-                System.out.println("Quarta-Feira");
-                System.out.println("Dia util");
-                break;
             case 5:
-                System.out.println("Quinta-Feira");
-                System.out.println("Dia util");
-                break;
             case 6:
-                System.out.println("Sexta-Feira");
-                System.out.println("Dia util");
-                break;
-            case 7:
-                System.out.println("Sábado");
                 System.out.println("Final de Semana");
                 break;
             default:
                 System.out.println("Opção inválida");
-                break;
         }
     }
 }
